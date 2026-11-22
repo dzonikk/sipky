@@ -44,7 +44,16 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+nav a {
+    color: var(--header-text);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
 
+nav a.active {
+    border-bottom: 2px solid var(--link-color);
+}
 button#zmena-pozadia {
     background-color: var(--link-color);
     color: white;
