@@ -36,17 +36,6 @@ header {
     gap: 10px;
 }
 
-nav a {
-    color: var(--header-text);
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-}
-
-nav a.active {
-    border-bottom: 2px solid var(--link-color);
-}
-
 main {
     max-width: 800px;
     margin: 30px auto;
